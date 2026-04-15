@@ -1,0 +1,1610 @@
+[
+  {
+    "timestamp": "2026-04-11T10:20:49.785556",
+    "cycle": 1,
+    "current_avg_cpu": 26.4,
+    "predicted_avg_cpu": 22.79,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 26.4,
+        "predicted": 22.79,
+        "trend": "stable",
+        "rate_per_min": -1.08,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:20:59.837780",
+    "cycle": 2,
+    "current_avg_cpu": 25.62,
+    "predicted_avg_cpu": 23.7,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 25.62,
+        "predicted": 23.7,
+        "trend": "stable",
+        "rate_per_min": -0.79,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:21:09.984992",
+    "cycle": 3,
+    "current_avg_cpu": 25.62,
+    "predicted_avg_cpu": 24.79,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 25.62,
+        "predicted": 24.79,
+        "trend": "stable",
+        "rate_per_min": -0.47,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:21:20.068561",
+    "cycle": 4,
+    "current_avg_cpu": 26.24,
+    "predicted_avg_cpu": 26.12,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 26.24,
+        "predicted": 26.12,
+        "trend": "stable",
+        "rate_per_min": -0.1,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:21:30.134305",
+    "cycle": 5,
+    "current_avg_cpu": 29.14,
+    "predicted_avg_cpu": 27.37,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 29.14,
+        "predicted": 27.37,
+        "trend": "stable",
+        "rate_per_min": 0.2,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:21:40.179136",
+    "cycle": 6,
+    "current_avg_cpu": 29.14,
+    "predicted_avg_cpu": 27.5,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 29.14,
+        "predicted": 27.5,
+        "trend": "stable",
+        "rate_per_min": 0.19,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:21:50.239500",
+    "cycle": 7,
+    "current_avg_cpu": 30.38,
+    "predicted_avg_cpu": 27.81,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 30.38,
+        "predicted": 27.81,
+        "trend": "stable",
+        "rate_per_min": 0.21,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:22:00.296560",
+    "cycle": 8,
+    "current_avg_cpu": 30.64,
+    "predicted_avg_cpu": 28.24,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 30.64,
+        "predicted": 28.24,
+        "trend": "stable",
+        "rate_per_min": 0.27,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:48:43.343655",
+    "cycle": 1,
+    "current_avg_cpu": 89.18,
+    "predicted_avg_cpu": 13.87,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 89.18,
+        "predicted": 13.87,
+        "trend": "falling",
+        "rate_per_min": -14.5,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:48:53.407013",
+    "cycle": 2,
+    "current_avg_cpu": 89.18,
+    "predicted_avg_cpu": 18.81,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 89.18,
+        "predicted": 18.81,
+        "trend": "falling",
+        "rate_per_min": -13.32,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:49:03.440945",
+    "cycle": 3,
+    "current_avg_cpu": 100.0,
+    "predicted_avg_cpu": 25.98,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 25.98,
+        "trend": "falling",
+        "rate_per_min": -11.73,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:49:13.493852",
+    "cycle": 4,
+    "current_avg_cpu": 100.0,
+    "predicted_avg_cpu": 33.15,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 33.15,
+        "trend": "falling",
+        "rate_per_min": -10.13,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:49:23.533372",
+    "cycle": 5,
+    "current_avg_cpu": 100.0,
+    "predicted_avg_cpu": 40.33,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 40.33,
+        "trend": "falling",
+        "rate_per_min": -8.54,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:49:33.577447",
+    "cycle": 6,
+    "current_avg_cpu": 100.0,
+    "predicted_avg_cpu": 47.5,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 47.5,
+        "trend": "falling",
+        "rate_per_min": -6.94,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:49:43.612976",
+    "cycle": 7,
+    "current_avg_cpu": 100.0,
+    "predicted_avg_cpu": 54.67,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 54.67,
+        "trend": "falling",
+        "rate_per_min": -5.35,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:49:53.668905",
+    "cycle": 8,
+    "current_avg_cpu": 100.0,
+    "predicted_avg_cpu": 61.84,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 61.84,
+        "trend": "falling",
+        "rate_per_min": -3.76,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:50:03.724539",
+    "cycle": 9,
+    "current_avg_cpu": 100.0,
+    "predicted_avg_cpu": 69.02,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 69.02,
+        "trend": "stable",
+        "rate_per_min": -2.16,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:50:13.997753",
+    "cycle": 10,
+    "current_avg_cpu": 100.0,
+    "predicted_avg_cpu": 76.19,
+    "trend": "falling",
+    "action": "reactive_scale_up",
+    "action_type": "reactive",
+    "scaled_server": "Backend-2",
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 76.19,
+        "trend": "stable",
+        "rate_per_min": -0.57,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:50:24.086733",
+    "cycle": 11,
+    "current_avg_cpu": 61.81,
+    "predicted_avg_cpu": 54.54,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 83.36,
+        "trend": "stable",
+        "rate_per_min": 1.03,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 23.62,
+        "predicted": 25.72,
+        "trend": "stable",
+        "rate_per_min": 0.34,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:50:34.193275",
+    "cycle": 12,
+    "current_avg_cpu": 61.81,
+    "predicted_avg_cpu": 57.98,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 90.54,
+        "trend": "stable",
+        "rate_per_min": 2.62,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 23.62,
+        "predicted": 25.43,
+        "trend": "stable",
+        "rate_per_min": 0.27,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:50:44.360603",
+    "cycle": 13,
+    "current_avg_cpu": 62.52,
+    "predicted_avg_cpu": 61.56,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 97.71,
+        "trend": "rising",
+        "rate_per_min": 4.21,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 25.04,
+        "predicted": 25.41,
+        "trend": "stable",
+        "rate_per_min": 0.25,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:50:54.506823",
+    "cycle": 14,
+    "current_avg_cpu": 63.62,
+    "predicted_avg_cpu": 62.79,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 5.81,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 27.23,
+        "predicted": 25.58,
+        "trend": "stable",
+        "rate_per_min": 0.25,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:51:04.613044",
+    "cycle": 15,
+    "current_avg_cpu": 63.62,
+    "predicted_avg_cpu": 62.76,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 7.4,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 27.23,
+        "predicted": 25.52,
+        "trend": "stable",
+        "rate_per_min": 0.18,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:51:14.706724",
+    "cycle": 16,
+    "current_avg_cpu": 65.05,
+    "predicted_avg_cpu": 62.97,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 9.0,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 30.09,
+        "predicted": 25.94,
+        "trend": "stable",
+        "rate_per_min": 0.21,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:51:24.812513",
+    "cycle": 17,
+    "current_avg_cpu": 64.68,
+    "predicted_avg_cpu": 63.04,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 10.59,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 29.36,
+        "predicted": 26.07,
+        "trend": "stable",
+        "rate_per_min": 0.17,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:51:34.908164",
+    "cycle": 18,
+    "current_avg_cpu": 64.68,
+    "predicted_avg_cpu": 63.09,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 12.18,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 29.36,
+        "predicted": 26.18,
+        "trend": "stable",
+        "rate_per_min": 0.13,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:51:44.976291",
+    "cycle": 19,
+    "current_avg_cpu": 63.25,
+    "predicted_avg_cpu": 62.81,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 13.78,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 26.5,
+        "predicted": 25.63,
+        "trend": "stable",
+        "rate_per_min": -0.04,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:51:55.051161",
+    "cycle": 20,
+    "current_avg_cpu": 61.44,
+    "predicted_avg_cpu": 62.24,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 14.79,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 22.87,
+        "predicted": 24.49,
+        "trend": "stable",
+        "rate_per_min": -0.3,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:52:05.110036",
+    "cycle": 21,
+    "current_avg_cpu": 61.44,
+    "predicted_avg_cpu": 61.85,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 15.76,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 22.87,
+        "predicted": 23.71,
+        "trend": "stable",
+        "rate_per_min": -0.46,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:52:15.175341",
+    "cycle": 22,
+    "current_avg_cpu": 61.03,
+    "predicted_avg_cpu": 61.39,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 15.76,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 22.06,
+        "predicted": 22.78,
+        "trend": "stable",
+        "rate_per_min": -0.65,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:52:25.235375",
+    "cycle": 23,
+    "current_avg_cpu": 60.39,
+    "predicted_avg_cpu": 61.07,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 14.78,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 20.78,
+        "predicted": 22.13,
+        "trend": "stable",
+        "rate_per_min": -0.74,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:52:35.299468",
+    "cycle": 24,
+    "current_avg_cpu": 60.39,
+    "predicted_avg_cpu": 60.89,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 13.65,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 20.78,
+        "predicted": 21.77,
+        "trend": "stable",
+        "rate_per_min": -0.76,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:52:45.351737",
+    "cycle": 25,
+    "current_avg_cpu": 60.13,
+    "predicted_avg_cpu": 60.7,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 11.98,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 20.26,
+        "predicted": 21.4,
+        "trend": "stable",
+        "rate_per_min": -0.78,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:52:55.426367",
+    "cycle": 26,
+    "current_avg_cpu": 59.81,
+    "predicted_avg_cpu": 60.42,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 10.09,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 19.63,
+        "predicted": 20.84,
+        "trend": "stable",
+        "rate_per_min": -0.84,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:05.493354",
+    "cycle": 27,
+    "current_avg_cpu": 59.81,
+    "predicted_avg_cpu": 60.07,
+    "trend": "stable",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 100.0,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 8.04,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 19.63,
+        "predicted": 20.14,
+        "trend": "stable",
+        "rate_per_min": -0.95,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:15.568872",
+    "cycle": 28,
+    "current_avg_cpu": 53.61,
+    "predicted_avg_cpu": 59.69,
+    "trend": "rising",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 87.29,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 5.33,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 19.93,
+        "predicted": 19.38,
+        "trend": "stable",
+        "rate_per_min": -1.06,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:25.642053",
+    "cycle": 29,
+    "current_avg_cpu": 54.42,
+    "predicted_avg_cpu": 59.54,
+    "trend": "rising",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 87.29,
+        "predicted": 100.0,
+        "trend": "rising",
+        "rate_per_min": 3.04,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 21.54,
+        "predicted": 19.09,
+        "trend": "stable",
+        "rate_per_min": -1.11,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:35.754248",
+    "cycle": 30,
+    "current_avg_cpu": 43.33,
+    "predicted_avg_cpu": 57.27,
+    "trend": "rising",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 61.91,
+        "predicted": 94.9,
+        "trend": "stable",
+        "rate_per_min": -0.28,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 24.75,
+        "predicted": 19.65,
+        "trend": "stable",
+        "rate_per_min": -0.97,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:45.864211",
+    "cycle": 31,
+    "current_avg_cpu": 31.48,
+    "predicted_avg_cpu": 49.94,
+    "trend": "rising",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 38.22,
+        "predicted": 79.32,
+        "trend": "falling",
+        "rate_per_min": -3.54,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 24.75,
+        "predicted": 20.56,
+        "trend": "stable",
+        "rate_per_min": -0.73,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:55.957260",
+    "cycle": 32,
+    "current_avg_cpu": 33.11,
+    "predicted_avg_cpu": 44.74,
+    "trend": "rising",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 38.22,
+        "predicted": 67.31,
+        "trend": "falling",
+        "rate_per_min": -5.85,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 28.0,
+        "predicted": 22.17,
+        "trend": "stable",
+        "rate_per_min": -0.37,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:54:06.031213",
+    "cycle": 33,
+    "current_avg_cpu": 27.45,
+    "predicted_avg_cpu": 38.54,
+    "trend": "rising",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 27.07,
+        "predicted": 53.66,
+        "trend": "falling",
+        "rate_per_min": -8.43,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 27.82,
+        "predicted": 23.41,
+        "trend": "stable",
+        "rate_per_min": -0.09,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:54:16.109192",
+    "cycle": 34,
+    "current_avg_cpu": 27.55,
+    "predicted_avg_cpu": 33.39,
+    "trend": "rising",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 27.27,
+        "predicted": 42.27,
+        "trend": "falling",
+        "rate_per_min": -10.44,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 27.82,
+        "predicted": 24.51,
+        "trend": "stable",
+        "rate_per_min": 0.14,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:54:26.324016",
+    "cycle": 35,
+    "current_avg_cpu": 26.59,
+    "predicted_avg_cpu": 28.44,
+    "trend": "stable",
+    "action": "reactive_scale_down",
+    "action_type": "reactive",
+    "scaled_server": "Backend-2",
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 27.27,
+        "predicted": 31.67,
+        "trend": "falling",
+        "rate_per_min": -12.28,
+        "data_points": 31
+      },
+      "Backend-2": {
+        "current": 25.91,
+        "predicted": 25.22,
+        "trend": "stable",
+        "rate_per_min": 0.3,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:54:36.362797",
+    "cycle": 36,
+    "current_avg_cpu": 25.71,
+    "predicted_avg_cpu": 21.55,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 25.71,
+        "predicted": 21.55,
+        "trend": "falling",
+        "rate_per_min": -13.99,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:54:46.437288",
+    "cycle": 37,
+    "current_avg_cpu": 24.24,
+    "predicted_avg_cpu": 11.96,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 24.24,
+        "predicted": 11.96,
+        "trend": "falling",
+        "rate_per_min": -15.58,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:54:56.515382",
+    "cycle": 38,
+    "current_avg_cpu": 24.13,
+    "predicted_avg_cpu": 3.19,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 24.13,
+        "predicted": 3.19,
+        "trend": "falling",
+        "rate_per_min": -16.99,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:55:06.580442",
+    "cycle": 39,
+    "current_avg_cpu": 25.74,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 25.74,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -18.67,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:55:16.658835",
+    "cycle": 40,
+    "current_avg_cpu": 27.76,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 27.76,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -19.5,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:55:26.716116",
+    "cycle": 41,
+    "current_avg_cpu": 30.24,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 30.24,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -20.06,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:55:36.761356",
+    "cycle": 42,
+    "current_avg_cpu": 30.24,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 30.24,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -20.45,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:55:46.806708",
+    "cycle": 43,
+    "current_avg_cpu": 28.66,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 28.66,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -20.73,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:55:56.859470",
+    "cycle": 44,
+    "current_avg_cpu": 26.49,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 26.49,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -20.92,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:56:06.914244",
+    "cycle": 45,
+    "current_avg_cpu": 26.49,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 26.49,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -20.93,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:56:16.968925",
+    "cycle": 46,
+    "current_avg_cpu": 24.11,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 24.11,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -20.84,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:56:27.014465",
+    "cycle": 47,
+    "current_avg_cpu": 24.84,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 24.84,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -20.55,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:56:37.055744",
+    "cycle": 48,
+    "current_avg_cpu": 24.84,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 24.84,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -20.08,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:56:47.113429",
+    "cycle": 49,
+    "current_avg_cpu": 25.09,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 25.09,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -19.41,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:56:57.170309",
+    "cycle": 50,
+    "current_avg_cpu": 25.11,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 25.11,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -18.57,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:57:07.221764",
+    "cycle": 51,
+    "current_avg_cpu": 25.11,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 25.11,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -17.54,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:57:17.270567",
+    "cycle": 52,
+    "current_avg_cpu": 25.67,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 25.67,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -16.31,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:57:27.322980",
+    "cycle": 53,
+    "current_avg_cpu": 26.02,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 26.02,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -14.89,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:57:37.365827",
+    "cycle": 54,
+    "current_avg_cpu": 26.02,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 26.02,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -13.29,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:57:47.435537",
+    "cycle": 55,
+    "current_avg_cpu": 26.44,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 26.44,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -11.49,
+        "data_points": 31
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:57:57.479288",
+    "cycle": 56,
+    "current_avg_cpu": 25.87,
+    "predicted_avg_cpu": 0.0,
+    "trend": "falling",
+    "action": "no_action",
+    "action_type": "none",
+    "scaled_server": null,
+    "active_servers": [
+      "Backend-1"
+    ],
+    "server_details": {
+      "Backend-1": {
+        "current": 25.87,
+        "predicted": 0.0,
+        "trend": "falling",
+        "rate_per_min": -9.54,
+        "data_points": 31
+      }
+    }
+  }
+]

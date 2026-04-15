@@ -1,0 +1,691 @@
+2026-04-11 10:20:49,738 [INFO] ============================================================
+2026-04-11 10:20:49,738 [INFO] PREDICTIVE VMSS Auto-Scaler started.
+2026-04-11 10:20:49,738 [INFO] Mode: Linear Regression Prediction
+2026-04-11 10:20:49,738 [INFO] Lookback: 5 min | Prediction: 2 min ahead
+2026-04-11 10:20:49,738 [INFO] Thresholds: UP>75.0% DOWN<30.0%
+2026-04-11 10:20:49,738 [INFO] ============================================================
+2026-04-11 10:20:49,738 [INFO] 
+2026-04-11 10:20:49,738 [INFO] ============================================================
+2026-04-11 10:20:49,738 [INFO] Prediction Cycle #1 - 2026-04-11 10:20:49
+2026-04-11 10:20:49,738 [INFO] ============================================================
+2026-04-11 10:20:49,738 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:20:49,738 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:20:49,783 [INFO]   Backend-1: Current=26.4% | Predicted(2min)=22.79% | Trend=stable (-1.08%/min) | Data points=31
+2026-04-11 10:20:49,784 [INFO]   Current Avg CPU: 26.4% | Predicted Avg CPU: 22.79% | Trend: falling
+2026-04-11 10:20:49,785 [INFO]   >> DECISION: No scaling needed (predicted 22.79% within safe range)
+2026-04-11 10:20:49,789 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:20:59,794 [INFO] 
+2026-04-11 10:20:59,794 [INFO] ============================================================
+2026-04-11 10:20:59,795 [INFO] Prediction Cycle #2 - 2026-04-11 10:20:59
+2026-04-11 10:20:59,795 [INFO] ============================================================
+2026-04-11 10:20:59,795 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:20:59,795 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:20:59,829 [INFO]   Backend-1: Current=25.62% | Predicted(2min)=23.7% | Trend=stable (-0.79%/min) | Data points=31
+2026-04-11 10:20:59,832 [INFO]   Current Avg CPU: 25.62% | Predicted Avg CPU: 23.7% | Trend: stable
+2026-04-11 10:20:59,836 [INFO]   >> DECISION: No scaling needed (predicted 23.7% within safe range)
+2026-04-11 10:20:59,842 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:21:09,860 [INFO] 
+2026-04-11 10:21:09,870 [INFO] ============================================================
+2026-04-11 10:21:09,871 [INFO] Prediction Cycle #3 - 2026-04-11 10:21:09
+2026-04-11 10:21:09,871 [INFO] ============================================================
+2026-04-11 10:21:09,871 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:21:09,871 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:21:09,965 [INFO]   Backend-1: Current=25.62% | Predicted(2min)=24.79% | Trend=stable (-0.47%/min) | Data points=31
+2026-04-11 10:21:09,969 [INFO]   Current Avg CPU: 25.62% | Predicted Avg CPU: 24.79% | Trend: stable
+2026-04-11 10:21:09,984 [INFO]   >> DECISION: No scaling needed (predicted 24.79% within safe range)
+2026-04-11 10:21:09,991 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:21:19,992 [INFO] 
+2026-04-11 10:21:19,992 [INFO] ============================================================
+2026-04-11 10:21:19,992 [INFO] Prediction Cycle #4 - 2026-04-11 10:21:19
+2026-04-11 10:21:19,992 [INFO] ============================================================
+2026-04-11 10:21:19,993 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:21:19,993 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:21:20,059 [INFO]   Backend-1: Current=26.24% | Predicted(2min)=26.12% | Trend=stable (-0.1%/min) | Data points=31
+2026-04-11 10:21:20,068 [INFO]   Current Avg CPU: 26.24% | Predicted Avg CPU: 26.12% | Trend: stable
+2026-04-11 10:21:20,068 [INFO]   >> DECISION: No scaling needed (predicted 26.12% within safe range)
+2026-04-11 10:21:20,077 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:21:30,078 [INFO] 
+2026-04-11 10:21:30,078 [INFO] ============================================================
+2026-04-11 10:21:30,078 [INFO] Prediction Cycle #5 - 2026-04-11 10:21:30
+2026-04-11 10:21:30,078 [INFO] ============================================================
+2026-04-11 10:21:30,078 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:21:30,079 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:21:30,122 [INFO]   Backend-1: Current=29.14% | Predicted(2min)=27.37% | Trend=stable (0.2%/min) | Data points=31
+2026-04-11 10:21:30,125 [INFO]   Current Avg CPU: 29.14% | Predicted Avg CPU: 27.37% | Trend: stable
+2026-04-11 10:21:30,126 [INFO]   >> DECISION: No scaling needed (predicted 27.37% within safe range)
+2026-04-11 10:21:30,137 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:21:40,137 [INFO] 
+2026-04-11 10:21:40,137 [INFO] ============================================================
+2026-04-11 10:21:40,137 [INFO] Prediction Cycle #6 - 2026-04-11 10:21:40
+2026-04-11 10:21:40,138 [INFO] ============================================================
+2026-04-11 10:21:40,138 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:21:40,138 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:21:40,176 [INFO]   Backend-1: Current=29.14% | Predicted(2min)=27.5% | Trend=stable (0.19%/min) | Data points=31
+2026-04-11 10:21:40,178 [INFO]   Current Avg CPU: 29.14% | Predicted Avg CPU: 27.5% | Trend: stable
+2026-04-11 10:21:40,179 [INFO]   >> DECISION: No scaling needed (predicted 27.5% within safe range)
+2026-04-11 10:21:40,191 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:21:50,197 [INFO] 
+2026-04-11 10:21:50,197 [INFO] ============================================================
+2026-04-11 10:21:50,197 [INFO] Prediction Cycle #7 - 2026-04-11 10:21:50
+2026-04-11 10:21:50,197 [INFO] ============================================================
+2026-04-11 10:21:50,197 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:21:50,197 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:21:50,238 [INFO]   Backend-1: Current=30.38% | Predicted(2min)=27.81% | Trend=stable (0.21%/min) | Data points=31
+2026-04-11 10:21:50,239 [INFO]   Current Avg CPU: 30.38% | Predicted Avg CPU: 27.81% | Trend: falling
+2026-04-11 10:21:50,239 [INFO]   >> DECISION: No scaling needed (predicted 27.81% within safe range)
+2026-04-11 10:21:50,243 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:22:00,245 [INFO] 
+2026-04-11 10:22:00,246 [INFO] ============================================================
+2026-04-11 10:22:00,246 [INFO] Prediction Cycle #8 - 2026-04-11 10:22:00
+2026-04-11 10:22:00,246 [INFO] ============================================================
+2026-04-11 10:22:00,246 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:22:00,246 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:22:00,287 [INFO]   Backend-1: Current=30.64% | Predicted(2min)=28.24% | Trend=stable (0.27%/min) | Data points=31
+2026-04-11 10:22:00,296 [INFO]   Current Avg CPU: 30.64% | Predicted Avg CPU: 28.24% | Trend: falling
+2026-04-11 10:22:00,296 [INFO]   >> DECISION: No scaling needed (predicted 28.24% within safe range)
+2026-04-11 10:22:00,299 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:22:06,234 [INFO] 
+2026-04-11 10:22:06,240 [INFO] Predictive VMSS Auto-Scaler stopped by user.
+2026-04-11 10:22:06,240 [INFO] Final state - Active servers: ['Backend-1']
+2026-04-11 10:22:06,240 [INFO] Goodbye!
+2026-04-11 10:48:43,280 [INFO] ============================================================
+2026-04-11 10:48:43,280 [INFO] PREDICTIVE VMSS Auto-Scaler started.
+2026-04-11 10:48:43,280 [INFO] Mode: Linear Regression Prediction
+2026-04-11 10:48:43,280 [INFO] Lookback: 5 min | Prediction: 2 min ahead
+2026-04-11 10:48:43,280 [INFO] Thresholds: UP>75.0% DOWN<30.0%
+2026-04-11 10:48:43,280 [INFO] ============================================================
+2026-04-11 10:48:43,280 [INFO] 
+2026-04-11 10:48:43,280 [INFO] ============================================================
+2026-04-11 10:48:43,280 [INFO] Prediction Cycle #1 - 2026-04-11 10:48:43
+2026-04-11 10:48:43,280 [INFO] ============================================================
+2026-04-11 10:48:43,281 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:48:43,281 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:48:43,337 [INFO]   Backend-1: Current=89.18% | Predicted(2min)=13.87% | Trend=falling (-14.5%/min) | Data points=31
+2026-04-11 10:48:43,339 [INFO]   Current Avg CPU: 89.18% | Predicted Avg CPU: 13.87% | Trend: falling
+2026-04-11 10:48:43,343 [INFO]   >> DECISION: No scaling needed (predicted 13.87% within safe range)
+2026-04-11 10:48:43,351 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:48:53,352 [INFO] 
+2026-04-11 10:48:53,352 [INFO] ============================================================
+2026-04-11 10:48:53,352 [INFO] Prediction Cycle #2 - 2026-04-11 10:48:53
+2026-04-11 10:48:53,352 [INFO] ============================================================
+2026-04-11 10:48:53,352 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:48:53,352 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:48:53,391 [INFO]   Backend-1: Current=89.18% | Predicted(2min)=18.81% | Trend=falling (-13.32%/min) | Data points=31
+2026-04-11 10:48:53,397 [INFO]   Current Avg CPU: 89.18% | Predicted Avg CPU: 18.81% | Trend: falling
+2026-04-11 10:48:53,397 [INFO]   >> DECISION: No scaling needed (predicted 18.81% within safe range)
+2026-04-11 10:48:53,414 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:49:03,414 [INFO] 
+2026-04-11 10:49:03,414 [INFO] ============================================================
+2026-04-11 10:49:03,414 [INFO] Prediction Cycle #3 - 2026-04-11 10:49:03
+2026-04-11 10:49:03,414 [INFO] ============================================================
+2026-04-11 10:49:03,415 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:49:03,415 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:49:03,436 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=25.98% | Trend=falling (-11.73%/min) | Data points=31
+2026-04-11 10:49:03,438 [INFO]   Current Avg CPU: 100.0% | Predicted Avg CPU: 25.98% | Trend: falling
+2026-04-11 10:49:03,440 [INFO]   >> DECISION: No scaling needed (predicted 25.98% within safe range)
+2026-04-11 10:49:03,442 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:49:13,447 [INFO] 
+2026-04-11 10:49:13,447 [INFO] ============================================================
+2026-04-11 10:49:13,447 [INFO] Prediction Cycle #4 - 2026-04-11 10:49:13
+2026-04-11 10:49:13,447 [INFO] ============================================================
+2026-04-11 10:49:13,447 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:49:13,447 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:49:13,493 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=33.15% | Trend=falling (-10.13%/min) | Data points=31
+2026-04-11 10:49:13,493 [INFO]   Current Avg CPU: 100.0% | Predicted Avg CPU: 33.15% | Trend: falling
+2026-04-11 10:49:13,493 [INFO]   >> DECISION: No scaling needed (predicted 33.15% within safe range)
+2026-04-11 10:49:13,502 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:49:23,502 [INFO] 
+2026-04-11 10:49:23,503 [INFO] ============================================================
+2026-04-11 10:49:23,503 [INFO] Prediction Cycle #5 - 2026-04-11 10:49:23
+2026-04-11 10:49:23,503 [INFO] ============================================================
+2026-04-11 10:49:23,503 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:49:23,503 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:49:23,530 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=40.33% | Trend=falling (-8.54%/min) | Data points=31
+2026-04-11 10:49:23,532 [INFO]   Current Avg CPU: 100.0% | Predicted Avg CPU: 40.33% | Trend: falling
+2026-04-11 10:49:23,533 [INFO]   >> DECISION: No scaling needed (predicted 40.33% within safe range)
+2026-04-11 10:49:23,537 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:49:33,543 [INFO] 
+2026-04-11 10:49:33,543 [INFO] ============================================================
+2026-04-11 10:49:33,543 [INFO] Prediction Cycle #6 - 2026-04-11 10:49:33
+2026-04-11 10:49:33,543 [INFO] ============================================================
+2026-04-11 10:49:33,543 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:49:33,543 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:49:33,571 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=47.5% | Trend=falling (-6.94%/min) | Data points=31
+2026-04-11 10:49:33,577 [INFO]   Current Avg CPU: 100.0% | Predicted Avg CPU: 47.5% | Trend: falling
+2026-04-11 10:49:33,577 [INFO]   >> DECISION: No scaling needed (predicted 47.5% within safe range)
+2026-04-11 10:49:33,579 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:49:43,580 [INFO] 
+2026-04-11 10:49:43,580 [INFO] ============================================================
+2026-04-11 10:49:43,580 [INFO] Prediction Cycle #7 - 2026-04-11 10:49:43
+2026-04-11 10:49:43,580 [INFO] ============================================================
+2026-04-11 10:49:43,580 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:49:43,580 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:49:43,610 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=54.67% | Trend=falling (-5.35%/min) | Data points=31
+2026-04-11 10:49:43,612 [INFO]   Current Avg CPU: 100.0% | Predicted Avg CPU: 54.67% | Trend: falling
+2026-04-11 10:49:43,612 [INFO]   >> DECISION: No scaling needed (predicted 54.67% within safe range)
+2026-04-11 10:49:43,615 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:49:53,615 [INFO] 
+2026-04-11 10:49:53,616 [INFO] ============================================================
+2026-04-11 10:49:53,616 [INFO] Prediction Cycle #8 - 2026-04-11 10:49:53
+2026-04-11 10:49:53,616 [INFO] ============================================================
+2026-04-11 10:49:53,616 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:49:53,616 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:49:53,659 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=61.84% | Trend=falling (-3.76%/min) | Data points=31
+2026-04-11 10:49:53,663 [INFO]   Current Avg CPU: 100.0% | Predicted Avg CPU: 61.84% | Trend: falling
+2026-04-11 10:49:53,668 [INFO]   >> DECISION: No scaling needed (predicted 61.84% within safe range)
+2026-04-11 10:49:53,676 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:50:03,677 [INFO] 
+2026-04-11 10:50:03,677 [INFO] ============================================================
+2026-04-11 10:50:03,678 [INFO] Prediction Cycle #9 - 2026-04-11 10:50:03
+2026-04-11 10:50:03,678 [INFO] ============================================================
+2026-04-11 10:50:03,678 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:50:03,678 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:50:03,723 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=69.02% | Trend=stable (-2.16%/min) | Data points=31
+2026-04-11 10:50:03,724 [INFO]   Current Avg CPU: 100.0% | Predicted Avg CPU: 69.02% | Trend: falling
+2026-04-11 10:50:03,724 [INFO]   >> DECISION: No scaling needed (predicted 69.02% within safe range)
+2026-04-11 10:50:03,737 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:50:13,738 [INFO] 
+2026-04-11 10:50:13,738 [INFO] ============================================================
+2026-04-11 10:50:13,739 [INFO] Prediction Cycle #10 - 2026-04-11 10:50:13
+2026-04-11 10:50:13,739 [INFO] ============================================================
+2026-04-11 10:50:13,739 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:50:13,739 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:50:13,777 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=76.19% | Trend=stable (-0.57%/min) | Data points=31
+2026-04-11 10:50:13,778 [INFO]   Current Avg CPU: 100.0% | Predicted Avg CPU: 76.19% | Trend: falling
+2026-04-11 10:50:13,778 [INFO]   >> REACTIVE SCALE UP: CPU already at 100.0%
+2026-04-11 10:50:13,779 [INFO] PREDICTIVE SCALE UP: Added Backend-2
+2026-04-11 10:50:13,997 [INFO] Nginx reloaded successfully.
+2026-04-11 10:50:13,997 [INFO] Updated active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:50:14,008 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:50:24,014 [INFO] 
+2026-04-11 10:50:24,014 [INFO] ============================================================
+2026-04-11 10:50:24,014 [INFO] Prediction Cycle #11 - 2026-04-11 10:50:24
+2026-04-11 10:50:24,014 [INFO] ============================================================
+2026-04-11 10:50:24,014 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:50:24,014 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:50:24,045 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=83.36% | Trend=stable (1.03%/min) | Data points=31
+2026-04-11 10:50:24,083 [INFO]   Backend-2: Current=23.62% | Predicted(2min)=25.72% | Trend=stable (0.34%/min) | Data points=31
+2026-04-11 10:50:24,086 [INFO]   Current Avg CPU: 61.81% | Predicted Avg CPU: 54.54% | Trend: falling
+2026-04-11 10:50:24,086 [INFO]   >> DECISION: No scaling needed (predicted 54.54% within safe range)
+2026-04-11 10:50:24,098 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:50:34,098 [INFO] 
+2026-04-11 10:50:34,098 [INFO] ============================================================
+2026-04-11 10:50:34,099 [INFO] Prediction Cycle #12 - 2026-04-11 10:50:34
+2026-04-11 10:50:34,099 [INFO] ============================================================
+2026-04-11 10:50:34,099 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:50:34,099 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:50:34,148 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=90.54% | Trend=stable (2.62%/min) | Data points=31
+2026-04-11 10:50:34,187 [INFO]   Backend-2: Current=23.62% | Predicted(2min)=25.43% | Trend=stable (0.27%/min) | Data points=31
+2026-04-11 10:50:34,192 [INFO]   Current Avg CPU: 61.81% | Predicted Avg CPU: 57.98% | Trend: falling
+2026-04-11 10:50:34,193 [INFO]   >> DECISION: No scaling needed (predicted 57.98% within safe range)
+2026-04-11 10:50:34,209 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:50:44,213 [INFO] 
+2026-04-11 10:50:44,213 [INFO] ============================================================
+2026-04-11 10:50:44,213 [INFO] Prediction Cycle #13 - 2026-04-11 10:50:44
+2026-04-11 10:50:44,213 [INFO] ============================================================
+2026-04-11 10:50:44,214 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:50:44,214 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:50:44,295 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=97.71% | Trend=rising (4.21%/min) | Data points=31
+2026-04-11 10:50:44,356 [INFO]   Backend-2: Current=25.04% | Predicted(2min)=25.41% | Trend=stable (0.25%/min) | Data points=31
+2026-04-11 10:50:44,360 [INFO]   Current Avg CPU: 62.52% | Predicted Avg CPU: 61.56% | Trend: stable
+2026-04-11 10:50:44,360 [INFO]   >> DECISION: No scaling needed (predicted 61.56% within safe range)
+2026-04-11 10:50:44,378 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:50:54,383 [INFO] 
+2026-04-11 10:50:54,383 [INFO] ============================================================
+2026-04-11 10:50:54,383 [INFO] Prediction Cycle #14 - 2026-04-11 10:50:54
+2026-04-11 10:50:54,383 [INFO] ============================================================
+2026-04-11 10:50:54,384 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:50:54,384 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:50:54,438 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (5.81%/min) | Data points=31
+2026-04-11 10:50:54,502 [INFO]   Backend-2: Current=27.23% | Predicted(2min)=25.58% | Trend=stable (0.25%/min) | Data points=31
+2026-04-11 10:50:54,506 [INFO]   Current Avg CPU: 63.62% | Predicted Avg CPU: 62.79% | Trend: stable
+2026-04-11 10:50:54,506 [INFO]   >> DECISION: No scaling needed (predicted 62.79% within safe range)
+2026-04-11 10:50:54,531 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:51:04,532 [INFO] 
+2026-04-11 10:51:04,532 [INFO] ============================================================
+2026-04-11 10:51:04,533 [INFO] Prediction Cycle #15 - 2026-04-11 10:51:04
+2026-04-11 10:51:04,533 [INFO] ============================================================
+2026-04-11 10:51:04,533 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:51:04,533 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:51:04,574 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (7.4%/min) | Data points=31
+2026-04-11 10:51:04,604 [INFO]   Backend-2: Current=27.23% | Predicted(2min)=25.52% | Trend=stable (0.18%/min) | Data points=31
+2026-04-11 10:51:04,604 [INFO]   Current Avg CPU: 63.62% | Predicted Avg CPU: 62.76% | Trend: stable
+2026-04-11 10:51:04,605 [INFO]   >> DECISION: No scaling needed (predicted 62.76% within safe range)
+2026-04-11 10:51:04,618 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:51:14,619 [INFO] 
+2026-04-11 10:51:14,620 [INFO] ============================================================
+2026-04-11 10:51:14,620 [INFO] Prediction Cycle #16 - 2026-04-11 10:51:14
+2026-04-11 10:51:14,620 [INFO] ============================================================
+2026-04-11 10:51:14,620 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:51:14,620 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:51:14,661 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (9.0%/min) | Data points=31
+2026-04-11 10:51:14,703 [INFO]   Backend-2: Current=30.09% | Predicted(2min)=25.94% | Trend=stable (0.21%/min) | Data points=31
+2026-04-11 10:51:14,706 [INFO]   Current Avg CPU: 65.05% | Predicted Avg CPU: 62.97% | Trend: falling
+2026-04-11 10:51:14,706 [INFO]   >> DECISION: No scaling needed (predicted 62.97% within safe range)
+2026-04-11 10:51:14,723 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:51:24,724 [INFO] 
+2026-04-11 10:51:24,724 [INFO] ============================================================
+2026-04-11 10:51:24,724 [INFO] Prediction Cycle #17 - 2026-04-11 10:51:24
+2026-04-11 10:51:24,724 [INFO] ============================================================
+2026-04-11 10:51:24,724 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:51:24,724 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:51:24,767 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (10.59%/min) | Data points=31
+2026-04-11 10:51:24,807 [INFO]   Backend-2: Current=29.36% | Predicted(2min)=26.07% | Trend=stable (0.17%/min) | Data points=31
+2026-04-11 10:51:24,812 [INFO]   Current Avg CPU: 64.68% | Predicted Avg CPU: 63.04% | Trend: stable
+2026-04-11 10:51:24,812 [INFO]   >> DECISION: No scaling needed (predicted 63.04% within safe range)
+2026-04-11 10:51:24,823 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:51:34,824 [INFO] 
+2026-04-11 10:51:34,824 [INFO] ============================================================
+2026-04-11 10:51:34,824 [INFO] Prediction Cycle #18 - 2026-04-11 10:51:34
+2026-04-11 10:51:34,824 [INFO] ============================================================
+2026-04-11 10:51:34,825 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:51:34,825 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:51:34,855 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (12.18%/min) | Data points=31
+2026-04-11 10:51:34,905 [INFO]   Backend-2: Current=29.36% | Predicted(2min)=26.18% | Trend=stable (0.13%/min) | Data points=31
+2026-04-11 10:51:34,908 [INFO]   Current Avg CPU: 64.68% | Predicted Avg CPU: 63.09% | Trend: stable
+2026-04-11 10:51:34,908 [INFO]   >> DECISION: No scaling needed (predicted 63.09% within safe range)
+2026-04-11 10:51:34,919 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:51:44,920 [INFO] 
+2026-04-11 10:51:44,920 [INFO] ============================================================
+2026-04-11 10:51:44,920 [INFO] Prediction Cycle #19 - 2026-04-11 10:51:44
+2026-04-11 10:51:44,921 [INFO] ============================================================
+2026-04-11 10:51:44,921 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:51:44,921 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:51:44,946 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (13.78%/min) | Data points=31
+2026-04-11 10:51:44,973 [INFO]   Backend-2: Current=26.5% | Predicted(2min)=25.63% | Trend=stable (-0.04%/min) | Data points=31
+2026-04-11 10:51:44,976 [INFO]   Current Avg CPU: 63.25% | Predicted Avg CPU: 62.81% | Trend: stable
+2026-04-11 10:51:44,976 [INFO]   >> DECISION: No scaling needed (predicted 62.81% within safe range)
+2026-04-11 10:51:44,985 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:51:54,986 [INFO] 
+2026-04-11 10:51:54,986 [INFO] ============================================================
+2026-04-11 10:51:54,986 [INFO] Prediction Cycle #20 - 2026-04-11 10:51:54
+2026-04-11 10:51:54,986 [INFO] ============================================================
+2026-04-11 10:51:54,986 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:51:54,987 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:51:55,020 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (14.79%/min) | Data points=31
+2026-04-11 10:51:55,046 [INFO]   Backend-2: Current=22.87% | Predicted(2min)=24.49% | Trend=stable (-0.3%/min) | Data points=31
+2026-04-11 10:51:55,050 [INFO]   Current Avg CPU: 61.44% | Predicted Avg CPU: 62.24% | Trend: stable
+2026-04-11 10:51:55,051 [INFO]   >> DECISION: No scaling needed (predicted 62.24% within safe range)
+2026-04-11 10:51:55,057 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:52:05,058 [INFO] 
+2026-04-11 10:52:05,058 [INFO] ============================================================
+2026-04-11 10:52:05,058 [INFO] Prediction Cycle #21 - 2026-04-11 10:52:05
+2026-04-11 10:52:05,058 [INFO] ============================================================
+2026-04-11 10:52:05,058 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:52:05,058 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:52:05,081 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (15.76%/min) | Data points=31
+2026-04-11 10:52:05,106 [INFO]   Backend-2: Current=22.87% | Predicted(2min)=23.71% | Trend=stable (-0.46%/min) | Data points=31
+2026-04-11 10:52:05,108 [INFO]   Current Avg CPU: 61.44% | Predicted Avg CPU: 61.85% | Trend: stable
+2026-04-11 10:52:05,109 [INFO]   >> DECISION: No scaling needed (predicted 61.85% within safe range)
+2026-04-11 10:52:05,118 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:52:15,122 [INFO] 
+2026-04-11 10:52:15,122 [INFO] ============================================================
+2026-04-11 10:52:15,122 [INFO] Prediction Cycle #22 - 2026-04-11 10:52:15
+2026-04-11 10:52:15,123 [INFO] ============================================================
+2026-04-11 10:52:15,123 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:52:15,123 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:52:15,150 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (15.76%/min) | Data points=31
+2026-04-11 10:52:15,173 [INFO]   Backend-2: Current=22.06% | Predicted(2min)=22.78% | Trend=stable (-0.65%/min) | Data points=31
+2026-04-11 10:52:15,174 [INFO]   Current Avg CPU: 61.03% | Predicted Avg CPU: 61.39% | Trend: stable
+2026-04-11 10:52:15,175 [INFO]   >> DECISION: No scaling needed (predicted 61.39% within safe range)
+2026-04-11 10:52:15,181 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:52:25,186 [INFO] 
+2026-04-11 10:52:25,186 [INFO] ============================================================
+2026-04-11 10:52:25,186 [INFO] Prediction Cycle #23 - 2026-04-11 10:52:25
+2026-04-11 10:52:25,186 [INFO] ============================================================
+2026-04-11 10:52:25,187 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:52:25,187 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:52:25,207 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (14.78%/min) | Data points=31
+2026-04-11 10:52:25,233 [INFO]   Backend-2: Current=20.78% | Predicted(2min)=22.13% | Trend=stable (-0.74%/min) | Data points=31
+2026-04-11 10:52:25,234 [INFO]   Current Avg CPU: 60.39% | Predicted Avg CPU: 61.07% | Trend: stable
+2026-04-11 10:52:25,235 [INFO]   >> DECISION: No scaling needed (predicted 61.07% within safe range)
+2026-04-11 10:52:25,245 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:52:35,250 [INFO] 
+2026-04-11 10:52:35,250 [INFO] ============================================================
+2026-04-11 10:52:35,250 [INFO] Prediction Cycle #24 - 2026-04-11 10:52:35
+2026-04-11 10:52:35,250 [INFO] ============================================================
+2026-04-11 10:52:35,251 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:52:35,251 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:52:35,278 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (13.65%/min) | Data points=31
+2026-04-11 10:52:35,299 [INFO]   Backend-2: Current=20.78% | Predicted(2min)=21.77% | Trend=stable (-0.76%/min) | Data points=31
+2026-04-11 10:52:35,299 [INFO]   Current Avg CPU: 60.39% | Predicted Avg CPU: 60.89% | Trend: stable
+2026-04-11 10:52:35,299 [INFO]   >> DECISION: No scaling needed (predicted 60.89% within safe range)
+2026-04-11 10:52:35,307 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:52:45,309 [INFO] 
+2026-04-11 10:52:45,309 [INFO] ============================================================
+2026-04-11 10:52:45,309 [INFO] Prediction Cycle #25 - 2026-04-11 10:52:45
+2026-04-11 10:52:45,309 [INFO] ============================================================
+2026-04-11 10:52:45,309 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:52:45,309 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:52:45,331 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (11.98%/min) | Data points=31
+2026-04-11 10:52:45,351 [INFO]   Backend-2: Current=20.26% | Predicted(2min)=21.4% | Trend=stable (-0.78%/min) | Data points=31
+2026-04-11 10:52:45,351 [INFO]   Current Avg CPU: 60.13% | Predicted Avg CPU: 60.7% | Trend: stable
+2026-04-11 10:52:45,351 [INFO]   >> DECISION: No scaling needed (predicted 60.7% within safe range)
+2026-04-11 10:52:45,358 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:52:55,359 [INFO] 
+2026-04-11 10:52:55,362 [INFO] ============================================================
+2026-04-11 10:52:55,362 [INFO] Prediction Cycle #26 - 2026-04-11 10:52:55
+2026-04-11 10:52:55,362 [INFO] ============================================================
+2026-04-11 10:52:55,363 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:52:55,363 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:52:55,392 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (10.09%/min) | Data points=31
+2026-04-11 10:52:55,418 [INFO]   Backend-2: Current=19.63% | Predicted(2min)=20.84% | Trend=stable (-0.84%/min) | Data points=31
+2026-04-11 10:52:55,422 [INFO]   Current Avg CPU: 59.81% | Predicted Avg CPU: 60.42% | Trend: stable
+2026-04-11 10:52:55,426 [INFO]   >> DECISION: No scaling needed (predicted 60.42% within safe range)
+2026-04-11 10:52:55,435 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:53:05,436 [INFO] 
+2026-04-11 10:53:05,436 [INFO] ============================================================
+2026-04-11 10:53:05,436 [INFO] Prediction Cycle #27 - 2026-04-11 10:53:05
+2026-04-11 10:53:05,436 [INFO] ============================================================
+2026-04-11 10:53:05,436 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:53:05,436 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:53:05,459 [INFO]   Backend-1: Current=100.0% | Predicted(2min)=100.0% | Trend=rising (8.04%/min) | Data points=31
+2026-04-11 10:53:05,489 [INFO]   Backend-2: Current=19.63% | Predicted(2min)=20.14% | Trend=stable (-0.95%/min) | Data points=31
+2026-04-11 10:53:05,493 [INFO]   Current Avg CPU: 59.81% | Predicted Avg CPU: 60.07% | Trend: stable
+2026-04-11 10:53:05,493 [INFO]   >> DECISION: No scaling needed (predicted 60.07% within safe range)
+2026-04-11 10:53:05,502 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:53:15,506 [INFO] 
+2026-04-11 10:53:15,507 [INFO] ============================================================
+2026-04-11 10:53:15,507 [INFO] Prediction Cycle #28 - 2026-04-11 10:53:15
+2026-04-11 10:53:15,507 [INFO] ============================================================
+2026-04-11 10:53:15,507 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:53:15,507 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:53:15,538 [INFO]   Backend-1: Current=87.29% | Predicted(2min)=100.0% | Trend=rising (5.33%/min) | Data points=31
+2026-04-11 10:53:15,564 [INFO]   Backend-2: Current=19.93% | Predicted(2min)=19.38% | Trend=stable (-1.06%/min) | Data points=31
+2026-04-11 10:53:15,567 [INFO]   Current Avg CPU: 53.61% | Predicted Avg CPU: 59.69% | Trend: rising
+2026-04-11 10:53:15,568 [INFO]   >> DECISION: No scaling needed (predicted 59.69% within safe range)
+2026-04-11 10:53:15,581 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:53:25,581 [INFO] 
+2026-04-11 10:53:25,584 [INFO] ============================================================
+2026-04-11 10:53:25,585 [INFO] Prediction Cycle #29 - 2026-04-11 10:53:25
+2026-04-11 10:53:25,585 [INFO] ============================================================
+2026-04-11 10:53:25,585 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:53:25,585 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:53:25,616 [INFO]   Backend-1: Current=87.29% | Predicted(2min)=100.0% | Trend=rising (3.04%/min) | Data points=31
+2026-04-11 10:53:25,639 [INFO]   Backend-2: Current=21.54% | Predicted(2min)=19.09% | Trend=stable (-1.11%/min) | Data points=31
+2026-04-11 10:53:25,641 [INFO]   Current Avg CPU: 54.42% | Predicted Avg CPU: 59.54% | Trend: rising
+2026-04-11 10:53:25,642 [INFO]   >> DECISION: No scaling needed (predicted 59.54% within safe range)
+2026-04-11 10:53:25,654 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:53:35,655 [INFO] 
+2026-04-11 10:53:35,655 [INFO] ============================================================
+2026-04-11 10:53:35,655 [INFO] Prediction Cycle #30 - 2026-04-11 10:53:35
+2026-04-11 10:53:35,655 [INFO] ============================================================
+2026-04-11 10:53:35,655 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:53:35,655 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:53:35,701 [INFO]   Backend-1: Current=61.91% | Predicted(2min)=94.9% | Trend=stable (-0.28%/min) | Data points=31
+2026-04-11 10:53:35,748 [INFO]   Backend-2: Current=24.75% | Predicted(2min)=19.65% | Trend=stable (-0.97%/min) | Data points=31
+2026-04-11 10:53:35,749 [INFO]   Current Avg CPU: 43.33% | Predicted Avg CPU: 57.27% | Trend: rising
+2026-04-11 10:53:35,753 [INFO]   >> DECISION: No scaling needed (predicted 57.27% within safe range)
+2026-04-11 10:53:35,768 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:53:45,770 [INFO] 
+2026-04-11 10:53:45,770 [INFO] ============================================================
+2026-04-11 10:53:45,770 [INFO] Prediction Cycle #31 - 2026-04-11 10:53:45
+2026-04-11 10:53:45,770 [INFO] ============================================================
+2026-04-11 10:53:45,770 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:53:45,770 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:53:45,808 [INFO]   Backend-1: Current=38.22% | Predicted(2min)=79.32% | Trend=falling (-3.54%/min) | Data points=31
+2026-04-11 10:53:45,855 [INFO]   Backend-2: Current=24.75% | Predicted(2min)=20.56% | Trend=stable (-0.73%/min) | Data points=31
+2026-04-11 10:53:45,859 [INFO]   Current Avg CPU: 31.48% | Predicted Avg CPU: 49.94% | Trend: rising
+2026-04-11 10:53:45,864 [INFO]   >> DECISION: No scaling needed (predicted 49.94% within safe range)
+2026-04-11 10:53:45,886 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:53:55,889 [INFO] 
+2026-04-11 10:53:55,889 [INFO] ============================================================
+2026-04-11 10:53:55,889 [INFO] Prediction Cycle #32 - 2026-04-11 10:53:55
+2026-04-11 10:53:55,889 [INFO] ============================================================
+2026-04-11 10:53:55,890 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:53:55,890 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:53:55,925 [INFO]   Backend-1: Current=38.22% | Predicted(2min)=67.31% | Trend=falling (-5.85%/min) | Data points=31
+2026-04-11 10:53:55,955 [INFO]   Backend-2: Current=28.0% | Predicted(2min)=22.17% | Trend=stable (-0.37%/min) | Data points=31
+2026-04-11 10:53:55,957 [INFO]   Current Avg CPU: 33.11% | Predicted Avg CPU: 44.74% | Trend: rising
+2026-04-11 10:53:55,957 [INFO]   >> DECISION: No scaling needed (predicted 44.74% within safe range)
+2026-04-11 10:53:55,967 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:54:05,967 [INFO] 
+2026-04-11 10:54:05,968 [INFO] ============================================================
+2026-04-11 10:54:05,968 [INFO] Prediction Cycle #33 - 2026-04-11 10:54:05
+2026-04-11 10:54:05,968 [INFO] ============================================================
+2026-04-11 10:54:05,968 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:54:05,968 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:54:05,993 [INFO]   Backend-1: Current=27.07% | Predicted(2min)=53.66% | Trend=falling (-8.43%/min) | Data points=31
+2026-04-11 10:54:06,026 [INFO]   Backend-2: Current=27.82% | Predicted(2min)=23.41% | Trend=stable (-0.09%/min) | Data points=31
+2026-04-11 10:54:06,031 [INFO]   Current Avg CPU: 27.45% | Predicted Avg CPU: 38.54% | Trend: rising
+2026-04-11 10:54:06,031 [INFO]   >> DECISION: No scaling needed (predicted 38.54% within safe range)
+2026-04-11 10:54:06,043 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:54:16,044 [INFO] 
+2026-04-11 10:54:16,044 [INFO] ============================================================
+2026-04-11 10:54:16,044 [INFO] Prediction Cycle #34 - 2026-04-11 10:54:16
+2026-04-11 10:54:16,044 [INFO] ============================================================
+2026-04-11 10:54:16,045 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:54:16,045 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:54:16,076 [INFO]   Backend-1: Current=27.27% | Predicted(2min)=42.27% | Trend=falling (-10.44%/min) | Data points=31
+2026-04-11 10:54:16,106 [INFO]   Backend-2: Current=27.82% | Predicted(2min)=24.51% | Trend=stable (0.14%/min) | Data points=31
+2026-04-11 10:54:16,109 [INFO]   Current Avg CPU: 27.55% | Predicted Avg CPU: 33.39% | Trend: rising
+2026-04-11 10:54:16,109 [INFO]   >> DECISION: No scaling needed (predicted 33.39% within safe range)
+2026-04-11 10:54:16,127 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:54:26,132 [INFO] 
+2026-04-11 10:54:26,133 [INFO] ============================================================
+2026-04-11 10:54:26,134 [INFO] Prediction Cycle #35 - 2026-04-11 10:54:26
+2026-04-11 10:54:26,134 [INFO] ============================================================
+2026-04-11 10:54:26,134 [INFO] Active servers: ['Backend-1', 'Backend-2']
+2026-04-11 10:54:26,134 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:54:26,163 [INFO]   Backend-1: Current=27.27% | Predicted(2min)=31.67% | Trend=falling (-12.28%/min) | Data points=31
+2026-04-11 10:54:26,186 [INFO]   Backend-2: Current=25.91% | Predicted(2min)=25.22% | Trend=stable (0.3%/min) | Data points=31
+2026-04-11 10:54:26,188 [INFO]   Current Avg CPU: 26.59% | Predicted Avg CPU: 28.44% | Trend: stable
+2026-04-11 10:54:26,191 [INFO]   >> REACTIVE SCALE DOWN: CPU already at 26.59%
+2026-04-11 10:54:26,193 [INFO] PREDICTIVE SCALE DOWN: Removed Backend-2
+2026-04-11 10:54:26,323 [INFO] Nginx reloaded successfully.
+2026-04-11 10:54:26,323 [INFO] Updated active servers: ['Backend-1']
+2026-04-11 10:54:26,336 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:54:36,336 [INFO] 
+2026-04-11 10:54:36,336 [INFO] ============================================================
+2026-04-11 10:54:36,336 [INFO] Prediction Cycle #36 - 2026-04-11 10:54:36
+2026-04-11 10:54:36,336 [INFO] ============================================================
+2026-04-11 10:54:36,337 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:54:36,337 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:54:36,362 [INFO]   Backend-1: Current=25.71% | Predicted(2min)=21.55% | Trend=falling (-13.99%/min) | Data points=31
+2026-04-11 10:54:36,362 [INFO]   Current Avg CPU: 25.71% | Predicted Avg CPU: 21.55% | Trend: falling
+2026-04-11 10:54:36,362 [INFO]   >> DECISION: No scaling needed (predicted 21.55% within safe range)
+2026-04-11 10:54:36,370 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:54:46,371 [INFO] 
+2026-04-11 10:54:46,372 [INFO] ============================================================
+2026-04-11 10:54:46,372 [INFO] Prediction Cycle #37 - 2026-04-11 10:54:46
+2026-04-11 10:54:46,372 [INFO] ============================================================
+2026-04-11 10:54:46,372 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:54:46,372 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:54:46,425 [INFO]   Backend-1: Current=24.24% | Predicted(2min)=11.96% | Trend=falling (-15.58%/min) | Data points=31
+2026-04-11 10:54:46,428 [INFO]   Current Avg CPU: 24.24% | Predicted Avg CPU: 11.96% | Trend: falling
+2026-04-11 10:54:46,436 [INFO]   >> DECISION: No scaling needed (predicted 11.96% within safe range)
+2026-04-11 10:54:46,447 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:54:56,447 [INFO] 
+2026-04-11 10:54:56,448 [INFO] ============================================================
+2026-04-11 10:54:56,448 [INFO] Prediction Cycle #38 - 2026-04-11 10:54:56
+2026-04-11 10:54:56,448 [INFO] ============================================================
+2026-04-11 10:54:56,448 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:54:56,448 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:54:56,498 [INFO]   Backend-1: Current=24.13% | Predicted(2min)=3.19% | Trend=falling (-16.99%/min) | Data points=31
+2026-04-11 10:54:56,502 [INFO]   Current Avg CPU: 24.13% | Predicted Avg CPU: 3.19% | Trend: falling
+2026-04-11 10:54:56,513 [INFO]   >> DECISION: No scaling needed (predicted 3.19% within safe range)
+2026-04-11 10:54:56,540 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:55:06,541 [INFO] 
+2026-04-11 10:55:06,541 [INFO] ============================================================
+2026-04-11 10:55:06,541 [INFO] Prediction Cycle #39 - 2026-04-11 10:55:06
+2026-04-11 10:55:06,541 [INFO] ============================================================
+2026-04-11 10:55:06,541 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:55:06,541 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:55:06,573 [INFO]   Backend-1: Current=25.74% | Predicted(2min)=0.0% | Trend=falling (-18.67%/min) | Data points=31
+2026-04-11 10:55:06,576 [INFO]   Current Avg CPU: 25.74% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:55:06,580 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:55:06,595 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:55:16,598 [INFO] 
+2026-04-11 10:55:16,599 [INFO] ============================================================
+2026-04-11 10:55:16,599 [INFO] Prediction Cycle #40 - 2026-04-11 10:55:16
+2026-04-11 10:55:16,599 [INFO] ============================================================
+2026-04-11 10:55:16,599 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:55:16,599 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:55:16,647 [INFO]   Backend-1: Current=27.76% | Predicted(2min)=0.0% | Trend=falling (-19.5%/min) | Data points=31
+2026-04-11 10:55:16,658 [INFO]   Current Avg CPU: 27.76% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:55:16,658 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:55:16,687 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:55:26,688 [INFO] 
+2026-04-11 10:55:26,689 [INFO] ============================================================
+2026-04-11 10:55:26,689 [INFO] Prediction Cycle #41 - 2026-04-11 10:55:26
+2026-04-11 10:55:26,689 [INFO] ============================================================
+2026-04-11 10:55:26,689 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:55:26,689 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:55:26,715 [INFO]   Backend-1: Current=30.24% | Predicted(2min)=0.0% | Trend=falling (-20.06%/min) | Data points=31
+2026-04-11 10:55:26,715 [INFO]   Current Avg CPU: 30.24% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:55:26,716 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:55:26,726 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:55:36,726 [INFO] 
+2026-04-11 10:55:36,726 [INFO] ============================================================
+2026-04-11 10:55:36,726 [INFO] Prediction Cycle #42 - 2026-04-11 10:55:36
+2026-04-11 10:55:36,726 [INFO] ============================================================
+2026-04-11 10:55:36,727 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:55:36,727 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:55:36,761 [INFO]   Backend-1: Current=30.24% | Predicted(2min)=0.0% | Trend=falling (-20.45%/min) | Data points=31
+2026-04-11 10:55:36,761 [INFO]   Current Avg CPU: 30.24% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:55:36,761 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:55:36,767 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:55:46,772 [INFO] 
+2026-04-11 10:55:46,773 [INFO] ============================================================
+2026-04-11 10:55:46,773 [INFO] Prediction Cycle #43 - 2026-04-11 10:55:46
+2026-04-11 10:55:46,773 [INFO] ============================================================
+2026-04-11 10:55:46,773 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:55:46,773 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:55:46,804 [INFO]   Backend-1: Current=28.66% | Predicted(2min)=0.0% | Trend=falling (-20.73%/min) | Data points=31
+2026-04-11 10:55:46,805 [INFO]   Current Avg CPU: 28.66% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:55:46,806 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:55:46,819 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:55:56,822 [INFO] 
+2026-04-11 10:55:56,822 [INFO] ============================================================
+2026-04-11 10:55:56,822 [INFO] Prediction Cycle #44 - 2026-04-11 10:55:56
+2026-04-11 10:55:56,822 [INFO] ============================================================
+2026-04-11 10:55:56,822 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:55:56,822 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:55:56,855 [INFO]   Backend-1: Current=26.49% | Predicted(2min)=0.0% | Trend=falling (-20.92%/min) | Data points=31
+2026-04-11 10:55:56,857 [INFO]   Current Avg CPU: 26.49% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:55:56,859 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:55:56,873 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:56:06,874 [INFO] 
+2026-04-11 10:56:06,876 [INFO] ============================================================
+2026-04-11 10:56:06,877 [INFO] Prediction Cycle #45 - 2026-04-11 10:56:06
+2026-04-11 10:56:06,877 [INFO] ============================================================
+2026-04-11 10:56:06,877 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:56:06,877 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:56:06,908 [INFO]   Backend-1: Current=26.49% | Predicted(2min)=0.0% | Trend=falling (-20.93%/min) | Data points=31
+2026-04-11 10:56:06,911 [INFO]   Current Avg CPU: 26.49% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:56:06,914 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:56:06,926 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:56:16,927 [INFO] 
+2026-04-11 10:56:16,930 [INFO] ============================================================
+2026-04-11 10:56:16,931 [INFO] Prediction Cycle #46 - 2026-04-11 10:56:16
+2026-04-11 10:56:16,931 [INFO] ============================================================
+2026-04-11 10:56:16,931 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:56:16,931 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:56:16,967 [INFO]   Backend-1: Current=24.11% | Predicted(2min)=0.0% | Trend=falling (-20.84%/min) | Data points=31
+2026-04-11 10:56:16,968 [INFO]   Current Avg CPU: 24.11% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:56:16,968 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:56:16,983 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:56:26,984 [INFO] 
+2026-04-11 10:56:26,985 [INFO] ============================================================
+2026-04-11 10:56:26,985 [INFO] Prediction Cycle #47 - 2026-04-11 10:56:26
+2026-04-11 10:56:26,985 [INFO] ============================================================
+2026-04-11 10:56:26,985 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:56:26,985 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:56:27,014 [INFO]   Backend-1: Current=24.84% | Predicted(2min)=0.0% | Trend=falling (-20.55%/min) | Data points=31
+2026-04-11 10:56:27,014 [INFO]   Current Avg CPU: 24.84% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:56:27,014 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:56:27,027 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:56:37,028 [INFO] 
+2026-04-11 10:56:37,028 [INFO] ============================================================
+2026-04-11 10:56:37,028 [INFO] Prediction Cycle #48 - 2026-04-11 10:56:37
+2026-04-11 10:56:37,028 [INFO] ============================================================
+2026-04-11 10:56:37,029 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:56:37,029 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:56:37,053 [INFO]   Backend-1: Current=24.84% | Predicted(2min)=0.0% | Trend=falling (-20.08%/min) | Data points=31
+2026-04-11 10:56:37,054 [INFO]   Current Avg CPU: 24.84% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:56:37,055 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:56:37,072 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:56:47,072 [INFO] 
+2026-04-11 10:56:47,073 [INFO] ============================================================
+2026-04-11 10:56:47,073 [INFO] Prediction Cycle #49 - 2026-04-11 10:56:47
+2026-04-11 10:56:47,073 [INFO] ============================================================
+2026-04-11 10:56:47,073 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:56:47,073 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:56:47,105 [INFO]   Backend-1: Current=25.09% | Predicted(2min)=0.0% | Trend=falling (-19.41%/min) | Data points=31
+2026-04-11 10:56:47,109 [INFO]   Current Avg CPU: 25.09% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:56:47,113 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:56:47,125 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:56:57,126 [INFO] 
+2026-04-11 10:56:57,126 [INFO] ============================================================
+2026-04-11 10:56:57,126 [INFO] Prediction Cycle #50 - 2026-04-11 10:56:57
+2026-04-11 10:56:57,126 [INFO] ============================================================
+2026-04-11 10:56:57,127 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:56:57,127 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:56:57,165 [INFO]   Backend-1: Current=25.11% | Predicted(2min)=0.0% | Trend=falling (-18.57%/min) | Data points=31
+2026-04-11 10:56:57,170 [INFO]   Current Avg CPU: 25.11% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:56:57,170 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:56:57,190 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:57:07,191 [INFO] 
+2026-04-11 10:57:07,193 [INFO] ============================================================
+2026-04-11 10:57:07,193 [INFO] Prediction Cycle #51 - 2026-04-11 10:57:07
+2026-04-11 10:57:07,193 [INFO] ============================================================
+2026-04-11 10:57:07,194 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:57:07,194 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:57:07,216 [INFO]   Backend-1: Current=25.11% | Predicted(2min)=0.0% | Trend=falling (-17.54%/min) | Data points=31
+2026-04-11 10:57:07,217 [INFO]   Current Avg CPU: 25.11% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:57:07,219 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:57:07,235 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:57:17,236 [INFO] 
+2026-04-11 10:57:17,236 [INFO] ============================================================
+2026-04-11 10:57:17,236 [INFO] Prediction Cycle #52 - 2026-04-11 10:57:17
+2026-04-11 10:57:17,236 [INFO] ============================================================
+2026-04-11 10:57:17,236 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:57:17,236 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:57:17,270 [INFO]   Backend-1: Current=25.67% | Predicted(2min)=0.0% | Trend=falling (-16.31%/min) | Data points=31
+2026-04-11 10:57:17,270 [INFO]   Current Avg CPU: 25.67% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:57:17,270 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:57:17,277 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:57:27,278 [INFO] 
+2026-04-11 10:57:27,278 [INFO] ============================================================
+2026-04-11 10:57:27,278 [INFO] Prediction Cycle #53 - 2026-04-11 10:57:27
+2026-04-11 10:57:27,278 [INFO] ============================================================
+2026-04-11 10:57:27,279 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:57:27,279 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:57:27,320 [INFO]   Backend-1: Current=26.02% | Predicted(2min)=0.0% | Trend=falling (-14.89%/min) | Data points=31
+2026-04-11 10:57:27,322 [INFO]   Current Avg CPU: 26.02% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:57:27,322 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:57:27,338 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:57:37,338 [INFO] 
+2026-04-11 10:57:37,338 [INFO] ============================================================
+2026-04-11 10:57:37,338 [INFO] Prediction Cycle #54 - 2026-04-11 10:57:37
+2026-04-11 10:57:37,338 [INFO] ============================================================
+2026-04-11 10:57:37,339 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:57:37,339 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:57:37,361 [INFO]   Backend-1: Current=26.02% | Predicted(2min)=0.0% | Trend=falling (-13.29%/min) | Data points=31
+2026-04-11 10:57:37,362 [INFO]   Current Avg CPU: 26.02% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:57:37,365 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:57:37,373 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:57:47,376 [INFO] 
+2026-04-11 10:57:47,376 [INFO] ============================================================
+2026-04-11 10:57:47,377 [INFO] Prediction Cycle #55 - 2026-04-11 10:57:47
+2026-04-11 10:57:47,377 [INFO] ============================================================
+2026-04-11 10:57:47,377 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:57:47,377 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:57:47,434 [INFO]   Backend-1: Current=26.44% | Predicted(2min)=0.0% | Trend=falling (-11.49%/min) | Data points=31
+2026-04-11 10:57:47,435 [INFO]   Current Avg CPU: 26.44% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:57:47,435 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:57:47,444 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:57:57,446 [INFO] 
+2026-04-11 10:57:57,446 [INFO] ============================================================
+2026-04-11 10:57:57,447 [INFO] Prediction Cycle #56 - 2026-04-11 10:57:57
+2026-04-11 10:57:57,447 [INFO] ============================================================
+2026-04-11 10:57:57,447 [INFO] Active servers: ['Backend-1']
+2026-04-11 10:57:57,447 [INFO] Analysing CPU trends and predicting future utilisation...
+2026-04-11 10:57:57,473 [INFO]   Backend-1: Current=25.87% | Predicted(2min)=0.0% | Trend=falling (-9.54%/min) | Data points=31
+2026-04-11 10:57:57,475 [INFO]   Current Avg CPU: 25.87% | Predicted Avg CPU: 0.0% | Trend: falling
+2026-04-11 10:57:57,479 [INFO]   >> DECISION: No scaling needed (predicted 0.0% within safe range)
+2026-04-11 10:57:57,494 [INFO] Next prediction in 10 seconds...
+2026-04-11 10:58:00,133 [INFO] 
+2026-04-11 10:58:00,135 [INFO] Predictive VMSS Auto-Scaler stopped by user.
+2026-04-11 10:58:00,135 [INFO] Final state - Active servers: ['Backend-1']
+2026-04-11 10:58:00,135 [INFO] Goodbye!

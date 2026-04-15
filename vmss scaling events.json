@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2026-04-08T21:30:43.216123",
+    "event": "SCALE_UP",
+    "server_name": "Backend-2",
+    "server_address": "192.168.56.12",
+    "active_servers": [
+      "Backend-1",
+      "Backend-2"
+    ]
+  },
+  {
+    "timestamp": "2026-04-08T21:34:34.038087",
+    "event": "SCALE_DOWN",
+    "server_name": "Backend-2",
+    "server_address": "192.168.56.12",
+    "active_servers": [
+      "Backend-1"
+    ]
+  }
+]
